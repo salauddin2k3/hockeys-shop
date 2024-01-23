@@ -96,6 +96,24 @@
       background-color: #131318;
     }
 
+    /* Progress Section Color */
+
+    .first-progress {
+      color: #FF4240;
+    }
+
+    .second-progress {
+      color: #49D293;
+    }
+
+    .third-progress {
+      color: #FFB546;
+    }
+
+    .fourth-progress {
+      color: #4C8DF1;
+    }
+
   </style>
 
 
@@ -226,44 +244,60 @@
     <!-- Start Percentage Section -->
     <section class="container mx-auto percentage flex flex-col lg:flex-row  gap-3 lg:justify-evenly">
       <div class="circle  ">
-        <div class="circle-img">
-          <img class="mx-auto" src="images/Group 10 (1).png" alt="">
-          <!-- <div>
-                        <p class="text-3xl font-extrabold absolute bottom-10 right-32 sm:right-40 lg:right-20">87%</p>
-                    </div> -->
+        <div class="circle-img flex justify-center">
+            <div class="relative">
+              <div>
+                <div class="radial-progress rotate-180 text-gray-200" style="--value:100; --size:8rem; --thickness: 1rem;" role="progressbar"></div>
+              </div>
+              <div>
+                <div class="radial-progress rotate-180 first-progress  absolute top-0 left-0" style="--value:82; --size:8rem; --thickness: 1rem;" role="progressbar"><span class="rotate-180 font-extrabold text-3xl primary-color">87%</span></div>
+              </div>
+            </div>
         </div>
         <h2 class="mt-6 text-xl font-semibold primary-color text-center">Prayer Facility</h2>
         <p class="mt-4 text-base font-normal secondary-color text-center">At our club, we recognize the <br> importance of holistic well-being.</p>
       </div>
 
       <div class="circle  ">
-        <div class="circle-img ">
-          <img class="mx-auto" src="images/Group 10 (2).png" alt="">
-          <!-- <div>
-                        <p class="text-center text-3xl font-extrabold absolute bottom-10 right-2/3">95%</p>
-                    </div> -->
+        <div class="circle-img flex justify-center">
+          <div class="relative">
+            <div>
+              <div class="radial-progress rotate-180 text-gray-200" style="--value:100; --size:8rem; --thickness: 1rem;" role="progressbar"></div>
+            </div>
+            <div>
+              <div class="radial-progress rotate-180 second-progress  absolute top-0 left-0" style="--value:90; --size:8rem; --thickness: 1rem;" role="progressbar"><span class="rotate-180 font-extrabold text-3xl primary-color">95%</span></div>
+            </div>
+          </div>
         </div>
         <h2 class="mt-6 text-xl font-semibold primary-color text-center">Modern Arena with Fan Zones</h2>
         <p class="mt-4 text-base font-normal secondary-color text-center">Experience the thrill in our <br> state-of-the-art arena.</p>
       </div>
 
       <div class="circle  ">
-        <div class="circle-img">
-          <img class="mx-auto" src="images//Group 10 (3).png" alt="">
-          <!-- <div>
-                        <p class="text-3xl font-extrabold absolute bottom-10 right-20">90%</p>
-                    </div> -->
+        <div class="circle-img flex justify-center">
+          <div class="relative">
+            <div>
+              <div class="radial-progress rotate-180 text-gray-200" style="--value:100; --size:8rem; --thickness: 1rem;" role="progressbar"></div>
+            </div>
+            <div>
+              <div class="radial-progress rotate-180 third-progress  absolute top-0 left-0" style="--value:85; --size:8rem; --thickness: 1rem;" role="progressbar"><span class="rotate-180 font-extrabold text-3xl primary-color">90%</span></div>
+            </div>
+          </div>
         </div>
         <h2 class="mt-6 text-xl font-semibold primary-color text-center">Performance Analysis Lab</h2>
         <p class="mt-4 text-base font-normal secondary-color text-center">Stay ahead of the game with our <br> performance analysis lab.</p>
       </div>
 
       <div class="circle  ">
-        <div class="circle-img">
-          <img class="mx-auto" src="images/Group 10 (4).png" alt="">
-          <!-- <div>
-                        <p class="text-3xl font-extrabold absolute bottom-10 right-20">80%</p>
-                    </div> -->
+        <div class="circle-img flex justify-center">
+          <div class="relative">
+            <div>
+              <div class="radial-progress rotate-180 text-gray-200" style="--value:100; --size:8rem; --thickness: 1rem;" role="progressbar"></div>
+            </div>
+            <div>
+              <div class="radial-progress rotate-180 fourth-progress  absolute top-0 left-0" style="--value:75; --size:8rem; --thickness: 1rem;" role="progressbar"><span class="rotate-180 font-extrabold text-3xl primary-color">80%</span></div>
+            </div>
+          </div>
         </div>
         <h2 class="mt-6 text-xl font-semibold primary-color text-center">Community Outreach Center</h2>
         <p class="mt-4 text-base font-normal secondary-color text-center">Giving back is at our core. Connecting <br> the club with its local fan base.</p>
